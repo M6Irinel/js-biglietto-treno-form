@@ -6,6 +6,21 @@
     --color_pink_light: #c23468;
 }
 
+::-webkit-scrollbar {
+    appearance: none;
+}
+
+::-webkit-scrollbar-track {
+    appearance: none;
+    background-color: var(--color_pink);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 20px;
+    border: 5px solid var(--color_pink);
+}
+
 body {
     background-color: var(--color_pink);
 }
@@ -18,6 +33,10 @@ label {
     border: 2px solid var(--color_pink_light);
     border-radius: 5px;
     padding: 3px;
+}
+
+#discount {
+    cursor: pointer;
 }
 
 #generate, #cancel {
