@@ -1,0 +1,51 @@
+
+
+:root {
+    --padding_tiket-inside: 17px;
+    --color_pink: #b91450;
+    --color_pink_light: #c23468;
+}
+
+body {
+    background-color: var(--color_pink);
+}
+
+label {
+    color: var(--color_pink_light);
+}
+
+#name_username, #KM, #discount {
+    border: 2px solid var(--color_pink_light);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#generate, #cancel {
+    color: var(--color_pink);
+    border: 2px solid #898989;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+#generate:hover, #cancel:hover {
+    border: 2px solid #e68c3d;
+}
+
+.rowMy {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.contentTiket {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.contentTiket > div {
+    padding: var(--padding_tiket-inside);
+    background-color: #808080;
+}
+
+#tiket th, #tiket td {
+    padding: var(--padding_tiket-inside);
+}
